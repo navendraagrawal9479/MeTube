@@ -1,0 +1,131 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(114, 113, 113);
+  border-radius: 10px;
+  height: 200px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.category-btn:hover {
+  background-color: #3eccd9 !important;
+  color: rgb(11, 10, 10) !important;
+}
+
+.category-btn:hover span{
+  color: rgb(24, 23, 23) !important;
+}
+
+.react-player {
+  height: 77vh !important;
+  width: 100% !important;
+  overflow-y: hidden;
+}
+
+.search-bar{
+  border:none;
+  outline:none;
+  width:350px;
+}
+
+.category-btn{
+  font-weight: bold !important;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor:pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+
+  padding: 7px 15px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+.dark-btn{
+  font-weight: bold !important;
+  text-transform: capitalize;
+  background-color: #3eccd9;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor:pointer;
+  outline: none;
+  border: none;
+  padding: 7px 15px;
+  margin: 10px 0px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 920px) {
+  .category-btn{
+    margin: 10px;
+  }
+  .react-player {
+    height: 360px !important;
+    width:640px !important;
+    margin: 2rem auto;
+  }
+}
+
+@media screen and (max-width:800px){
+  .copyright{
+    display:none !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .scroll-horizontal {
+    overflow: auto !important;
+  }
+
+  .react-player {
+    height: 210px !important;
+    width:370px !important;
+    margin: 2rem auto;
+  }
+  .search-bar{
+    width:200px;
+  }
+}
+@media (max-width: 450px){
+  .search-bar{
+    width:140px;
+  }
+}
+@media (max-width:375px){
+  .react-player {
+    height: 180px !important;
+    width:320px !important;
+    margin: 2rem auto;
+  }
+}
+
+@media (max-width:290px){
+  .search-bar{
+    width:120px;
+  }
+  .icon-btn{
+    padding: 2px;
+  }
+}
