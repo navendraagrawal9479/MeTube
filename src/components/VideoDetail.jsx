@@ -71,7 +71,7 @@ const VideoDetail = () => {
               </Link>
               <Stack
                 direction="row"
-                gap="20px"
+                gap="10px"
                 alignItems="center"
                 sx={{ color: textColor }}
               >
@@ -91,7 +91,7 @@ const VideoDetail = () => {
           justifyContent="center"
           alignItems="center"
         >
-          <Videos videos={relatedVideos} direction="column" />
+          <Videos videos={relatedVideos} direction='column' />
         </Box>
       </Stack>
     </Box>
