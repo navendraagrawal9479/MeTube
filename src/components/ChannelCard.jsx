@@ -18,7 +18,9 @@ const ChannelCard = ({ channelDetail,marginTop }) => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        width:{sm:'280px',md:'300px',xs:'350px'}
+        width:{sm:'270px',md:'300px',xs:'340px'},
+        mb:'15px', 
+        mr:{sm:'15px'}
       }}
     >
       <Link to={`/channel/${channelDetail?.id?.channelId}`}>

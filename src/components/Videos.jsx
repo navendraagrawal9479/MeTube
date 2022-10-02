@@ -12,7 +12,7 @@ const Videos = ({ videos,direction}) => {
 
   return (
     //stack is used when we want to use flex box
-    <Stack direction={{xs:'row',md:direction}} flexWrap="wrap" justifyContent="center" gap={2}>
+    <Stack direction={{xs:'row',md:direction}} flexWrap="wrap" justifyContent="center">
       {videos.map((item, index) => (
         //we first want the channel link in case we fetch a channel videos
         //so check if the item is a channel or video item

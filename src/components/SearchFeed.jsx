@@ -23,7 +23,7 @@ const SearchFeed = () => {
 
   return (
     <Box
-      m={4}
+      m={1.5}
       sx={{
         overflowY: "auto",
         height: "90vh",
