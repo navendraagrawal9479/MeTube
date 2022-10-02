@@ -33,7 +33,7 @@ const VideoCard = ({
       time =
         Math.round(duration / 60) === 1
           ? `${Math.round(duration / 60)} minute ago`
-          : `${Math.round(duration / 60)} minutes0 ago`;
+          : `${Math.round(duration / 60)} minutes ago`;
     } else if (duration < 86400) {
       time =
         Math.round(duration / 3600) === 1
