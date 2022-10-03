@@ -19,7 +19,7 @@ const VideoCard = ({
 }) => {
   const { darkMode } = useSelector((state) => state.darkMode);
   const backgroundColor = darkMode ? "#1e1e1e" : "#fff";
-  const textColor = darkMode ? "#fff" : "#1e1e1e";=
+  const textColor = darkMode ? "#fff" : "#1e1e1e";
   let time = '';
   if (snippet?.publishedAt) {
     const uploadDate = new Date(snippet?.publishedAt);
